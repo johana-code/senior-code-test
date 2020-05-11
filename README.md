@@ -1,7 +1,7 @@
 # senior_code_test
 Senior Code Test
 
-###Johana Mbuguah
+### Johana Mbuguah
 
 language used:
 - NodeJS
