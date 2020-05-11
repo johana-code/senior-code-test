@@ -1,12 +1,14 @@
-/*
-	-----------------------------------
-
-		0/1 Knapsack Optimization 
-		    problem
-
-	-----------------------------------
+/**
+ * 
+ 
+    ----------------
+ 
+	  Question Two
+	  
+	----------------
+	   
 */
-const optimizeValue =  ( items, totalWeight ) => {
+const optimize =  ( items, totalWeight ) => {
 
 	let rowLength      = items.length + 1
 	let columnLength   = totalWeight + 1
@@ -116,4 +118,4 @@ const optimizeValue =  ( items, totalWeight ) => {
 	}
 }
 
-module.exports = optimizeValue
+module.exports = optimize

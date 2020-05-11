@@ -1,5 +1,16 @@
 /**
  * 
+ 
+    ----------------
+ 
+	  Question One
+	  
+	----------------
+
+ */
+
+/**
+ * 
  * @param {Number} x  - X coordinate of a cartesian plane
  * @param {Number} y  - Y coordinate of a cartesian plane
  * @returns {Object}  - Object containing status code,status message, coordinates and score

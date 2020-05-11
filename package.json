@@ -4,7 +4,7 @@
   "description": "senior code test",
   "main": "index.js",
   "scripts": {
-    "test" : "jest --verbose --passWithNoTests"
+    "test": "jest --verbose --passWithNoTests"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,14 @@
   },
   "homepage": "https://github.com/r2g/senior_code_test#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "chalk": "^4.0.0",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "jest": "^26.0.1"
+    "fastest-validator": "^1.4.0",
+    "jest": "^26.0.1",
+    "lowdb": "^1.0.0"
   }
 }
