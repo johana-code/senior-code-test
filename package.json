@@ -4,7 +4,7 @@
   "description": "senior code test",
   "main": "index.js",
   "scripts": {
-    "test" : "jest --passWithNoTests"
+    "test" : "jest --verbose --passWithNoTests"
   },
   "repository": {
     "type": "git",
