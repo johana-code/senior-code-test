@@ -1,4 +1,4 @@
-# senior_code_test
+# Senior Code Test
 Senior Code Test
 
 ### Johana Mbuguah
