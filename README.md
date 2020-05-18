@@ -3,12 +3,12 @@ Senior Code Test
 
 ### Johana Mbuguah
 
-#language used:
+# language used:
 - NodeJS
 - ReactJS ( NextJs )
 
 
-#Set Up:
+# Set Up:
 	
 - Install NodeJs LTS version(12.x.x) from https://nodejs.org/en/
 - Clone the Senior code test repository
@@ -16,7 +16,7 @@ Senior Code Test
 - Run `npm install` on the terminal to install all packages
 
 
-#Testing
+# Testing
  - Question 1,Question 2 and Question 4
 
 	- run the command `npm run test` from the root of the senior code test repository in order to run all test suites for Question 1, Question 2 and Question 4
