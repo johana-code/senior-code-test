@@ -6,6 +6,10 @@
 	  Question Four
 	  
 	----------------
+
+	-- refactor DB logic to db file
+	-- add integration tests
+	-- add proper status codes
 	   
 */
 

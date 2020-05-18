@@ -1,0 +1,152 @@
+/*-------------------
+
+	PROJECT SCAFFOLDING
+	
+-------------------*/
+
+project scaffolding:
+
+
+	/*-------------------
+
+		STATE MANAGEMENT
+		
+	-------------------*/
+	✔ added Redux @done(20-04-13 22:21)
+		✔ redux store is instantiated in ./src/pages/_app.js @done(20-04-13 22:21)
+		✔ redux config is contained in .src/services/redux or @services/redux @done(20-04-13 22:21)
+		✔ procedure is: @done(20-04-13 22:21)
+			✔ add a key in the @services/redux/state object @done(20-04-13 22:21)
+			✔ add a reducer for the key @done(20-04-13 22:21)
+	✔ added redux persisgtence with redux-persist && redux-persist/lib/storage @done(20-04-13 23:00)
+
+
+	/*-------------------
+
+		STYLES
+		
+	-------------------*/
+	✘ added styled-jsx-plugin-less using custom babel config in .babelrc @cancelled(20-04-28 15:52)
+		✘ this disabled the native styled jsx css loader @cancelled(20-04-13 22:21)
+	✔ added iconify for react @done(20-04-14 11:09)
+
+
+
+	/*-------------------
+
+		CODE ORGANIZATION
+		
+	-------------------*/
+	✔ loaded app from custom location ( ./src ) @done(20-04-13 22:21)
+	✔ added babel module resolvers using custom babel config in .babelrc @done(20-04-13 22:22)
+	✔ added express to load app @done(20-04-13 22:22)
+	✔ build next from custom location @done(20-04-13 23:12)
+.
+
+
+
+/*-------------------
+
+	ZIRCONIUM UI
+	
+-------------------*/
+Important Notes:
+	☐ Extend react bootstrap
+	☐ Responsive Layouts
+	☐ Multiple Login Methods  - jwt, local, 2fa using otp and google authenticator 
+	☐ Internationalization
+	☐ CSS Grid Layouts
+	☐ Themes
+	☐ Reusable template
+	☐ Component library
+	☐ Docs
+.
+	☐ Layout:
+		✔ Sidebar
+		✔ Navbar
+		✔ Footer
+		✔ Drawer
+	☐ Pages 
+		☐ Blocked
+		☐ Contacts
+		☐ Error
+		☐ Lockscreen
+		☐ Login - Social Media | google | facebook
+		☐ Password Reset
+		☐ Verification
+		☐ Profile
+		☐ Registration
+		☐ Search
+		☐ Two factor authentication
+			☐ Google authenticator
+			☐ One Time PIN
+	☐ Components:
+		General:
+			☐ Accordion
+			☐ Avatar
+			☐ Badge
+			☐ Breadcrumb
+			☐ Button | Button-Groups
+			☐ Card
+			☐ Chip
+			☐ Carousel
+			☐ Divider
+			☐ Dropdown
+			☐ Grid
+			☐ Label
+			☐ List			
+			☐ Modal
+			✔ Notification
+				☐ container position
+				☐ type ( | bar | simple )
+				☐ with header
+				☐ with tabs
+				☐ with custom content ( image )
+				☐ custom styling
+			☐ Pagination
+			✔ Panels
+			☐ Pills
+			☐ Popover
+			☐ Progress
+			☐ Table
+			☐ Tree
+			☐ Tabs
+			☐ Tag
+			☐ Tooltip
+			☐ Scrollbar
+			☐ Spinners | Loaders
+		Form:
+			☐ AutoComplete
+			☐ Checkbox
+			☐ Datepicker - Daterange picker
+			☐ Input - input-group addons - Number Input - Input Picker - Masked input
+			☐ Radio
+			☐ Rate
+			☐ Select
+			☐ Slider
+			☐ Switch/Toggle
+			☐ TagPicker
+			☐ Upload
+	☐ Widgets:
+		☐ Charts
+		☐ Dashboard widgets
+		☐ Form wizards
+		☐ Maps
+		☐ Timeline
+		☐ Calendar
+		☐ Gallery
+		☐ Steps
+	☐ Apps:
+		☐ App Launcher
+		☐ Chat
+		☐ Document/Invoice mgt
+		☐ Email
+		☐ FAQ/Search
+		☐ Log mgt
+		☐ Music
+		☐ Notes
+		☐ Projects + Kanban +  ScrumBoard + Tasks/Todo List
+		☐ Shopping Cart
+		☐ User Management
+		☐ Ussd Gen
+	.
