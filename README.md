@@ -3,12 +3,12 @@ Senior Code Test
 
 ### Johana Mbuguah
 
-1. language used:
+#language used:
 - NodeJS
 - ReactJS ( NextJs )
 
 
-2. Set Up:
+#Set Up:
 	
 - Install NodeJs LTS version(12.x.x) from https://nodejs.org/en/
 - Clone the Senior code test repository
@@ -16,7 +16,7 @@ Senior Code Test
 - Run `npm install` on the terminal to install all packages
 
 
-3. Testing
+#Testing
  - Question 1,Question 2 and Question 4
 
 	- run the command `npm run test` from the root of the senior code test repository in order to run all test suites for Question 1, Question 2 and Question 4
@@ -27,6 +27,7 @@ Senior Code Test
 	- run `npm install` to install all packages
 	- run `npm start` to start the application
 	- visit the application on `http://localhost:3000`
-	- result should look like below
+	- result should look like below:
+	---
 	![Question 3 Result](https://github.com/r2g/senior_code_test/blob/master/ice_fire.JPG)
 
