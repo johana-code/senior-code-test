@@ -10,7 +10,7 @@ Senior Code Test
 
 2. Set Up:
 	
-- Install NodeJs
+- Install NodeJs LTS version(12.x.x) from https://nodejs.org/en/
 - Clone the Senior code test repository
 - cd into the senior code test folder
 - Run `npm install` on the terminal to install all packages
