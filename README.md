@@ -24,7 +24,7 @@ Senior Code Test
 	
 - ### Question 3
 
-	- cd into the q3 folder
+	- cd into the q3/ice-fire folder
 	- run `npm install` to install all packages
 	- run `npm start` to start the application
 	- visit the application on `http://localhost:3000`
