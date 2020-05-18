@@ -38,16 +38,20 @@ Senior Code Test
 	- run the command `node index.js` to start the IoU API server
 	- access the api server on `http://localhost:3333`
 
+	NB: The Question 4 runs off a local high performance JSON database 
+
 	#### Add User:
 
-		POST http://127.0.0.1:3333/add
+	 - POST http://127.0.0.1:3333/add
 
 		payload
-		{
-			"user" : {
-				"name" : "Wangu"
+		```json
+			{
+				"user" : {
+					"name" : "Wangu"
+				}
 			}
-		}
+		```
 
 	#### Get Users:
 
