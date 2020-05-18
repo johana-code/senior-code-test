@@ -3,28 +3,30 @@ Senior Code Test
 
 ### Johana Mbuguah
 
-language used:
+1. language used:
 - NodeJS
-- React ( NextJs )
+- ReactJS ( NextJs )
 
 
-Set Up
+2. Set Up:
 	
 - Install NodeJs
 - Clone the Senior code test repository
 - cd into the senior code test folder
-- Run `npm install` on the rerminalto install all packages
+- Run `npm install` on the terminal to install all packages
 
 
-Testing
+3. Testing
  - Question 1,Question 2 and Question 4
 
-	run the command `npm run test` from the root of the senior code test repository in order to run all test suites for Question 1, Question 2 and Question 4
+	- run the command `npm run test` from the root of the senior code test repository in order to run all test suites for Question 1, Question 2 and Question 4
 
 - Question 3
 
-	cd into the q3 folder
-	run ``npm install` to install all packages
-	run `npm start` to start the application
-	visit the application on `http://localhost:3000`
+	- cd into the q3 folder
+	- run `npm install` to install all packages
+	- run `npm start` to start the application
+	- visit the application on `http://localhost:3000`
+	- result should look like below
+	![Question 3 Result](https://github.com/r2g/senior_code_test/blob/master/ice_fire.JPG)
 
