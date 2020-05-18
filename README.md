@@ -17,10 +17,11 @@ Senior Code Test
 
 
 # Testing
- - ### Question 1,Question 2 and Question 4
+ - ### Question 1 and Question 2
 
-	- run the command `npm run test` from the root of the senior code test repository in order to run all test suites for Question 1, Question 2 and Question 4
+	- run the command `npm run test` from the root of the senior code test repository in order to run all test suites for Question 1 and Question 2
 
+	
 - ### Question 3
 
 	- cd into the q3 folder
@@ -30,4 +31,63 @@ Senior Code Test
 	- result should look like below:
 	---
 	![Question 3 Result](https://github.com/r2g/senior_code_test/blob/master/ice_fire.JPG)
+
+ - ### Question 4
+
+	- cd into the q4 directory
+	- run the command `node index.js` to start the IoU API server
+	- access the api server on `http://localhost:3333`
+
+	#### Add User:
+
+		POST http://127.0.0.1:3333/add
+
+		payload
+		{
+			"user" : {
+				"name" : "Wangu"
+			}
+		}
+
+	#### Get Users:
+
+	- GET http://127.0.0.1:3333/users
+
+		payload
+		```json
+			{
+				"users" : [
+					"Mbula",
+					"Mbuguah",
+					"Ruthie",
+					"Wangu"
+				]
+			}
+		```
+
+	#### Add IoU
+
+	- POST http://127.0.0.1:3333/iou
+
+		```json
+			{
+				"lender" : "Mbula", 
+				"borrower":"Ruthie", 
+				"amount": 8.2
+			}
+		```
+	
+	#### Delete User:
+
+	- POST http://127.0.0.1:3333/delete
+
+		```json
+			{
+				"user" : {
+					"name" : "Ruthie"
+				}
+			}
+		```
+
+
 
